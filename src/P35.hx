@@ -9,11 +9,12 @@ class P35
 	public function new()
 	{
 		var array = ['G', 'B', 'R', 'R', 'B', 'R', 'G'];
+		var old = array.copy();
 		array.sort(function(a:String,b:String)
 		{
 			return value(a) - value(b);
 		});
-		trace(array);
+		trace(old + " -> " + array);
 	}
 	private function value(string:String):Int
 	{
