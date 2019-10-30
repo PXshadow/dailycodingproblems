@@ -16,18 +16,21 @@ class P46
     {
         var start:String = "";
         var end:String = "";
+        var size:Int = 0;
+        var sub:String = "";
         for (j in 0...string.length - 1)
         {
             start = string.charAt(j);
-            for (i in j + 1...string.length)
+            for (i in 0...string.length)
             {
                 end = string.charAt(string.length - i);
-                if (start == end)
+                if (start == end && string.length - i - j > size)
                 {
-                    trace("string " + string.substring(j,string.length - i) + " index " + j + " " + i + " s " + start + " e " + end);
+                    size = string.length - i - j;
+                    sub = string.substring(j,string.length - i + 1);
                 }
             }
         }
-        return "";
+        return sub;
     }
 }
