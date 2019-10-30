@@ -5,7 +5,7 @@ class P
 	 * description: 
 	 * requiriment: 
 	 * example: 
-	 */
+	*/
     public function new()
     {
 

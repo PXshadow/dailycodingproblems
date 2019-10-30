@@ -5,7 +5,7 @@ class P38
 	 * description: You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other.
 	 * requiriment: no two queens share the same row, column, or diagonal.
 	 * example (not from dailycodeproblem): 8 by 8 board, how many queens
-	 */
+	*/
     public function new()
     {
         var n:Int = 8;

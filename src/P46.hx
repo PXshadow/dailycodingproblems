@@ -5,7 +5,7 @@ class P46
 	 * description: Given a string, find the longest palindromic contiguous substring.
 	 * requiriment: If there are more than one with the maximum length, return any one.
 	 * example: the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
-	 */
+	*/
     public function new()
     {
         var a = "aabcdcb";
